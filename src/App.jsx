@@ -35,6 +35,17 @@ import Art7 from './assets/Image/Art7.jpg'
 import Art8 from './assets/Image/Art8.jpg'
 import Art9 from './assets/Image/Art9.jpg'
 import Art10 from './assets/Image/Art10.jpg'
+import Artboard20 from './assets/Image/Artboard 20.jpg'
+import Artboard21 from './assets/Image/Artboard 21.jpg'
+import Artboard22 from './assets/Image/Artboard 22.jpg'
+import Artboard23 from './assets/Image/Artboard 23.jpg'
+import Artboard24 from './assets/Image/Artboard 24.jpg'
+import Artboard25 from './assets/Image/Artboard 25.jpg'
+import Artboard26 from './assets/Image/Artboard 26.jpg'
+import Artboard27 from './assets/Image/Artboard 27.jpg'
+import Artboard28 from './assets/Image/Artboard 28.jpg'
+import packaging from './assets/videos/packaging.mp4'
+
 
 import './App.css'
 
@@ -43,7 +54,7 @@ function App() {
 
   return (
     <>
-    {/* <div className='w-full h-full flex flex-col justify-center items-center' style={{backgroundColor:"#eaeaea"}}>
+     <div className='w-full h-full flex flex-col justify-center items-center' style={{backgroundColor:"#eaeaea"}}>
      <img src={Artboard1} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain object-cover' srcSet={Artboard1}/>
      <img src={Artboard2} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain object-cover' />
      <img src={Artboard3} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
@@ -59,17 +70,17 @@ function App() {
      </video>
      <video autoPlay loop playsInline muted className='md:w-[90vw] md:h-[100vh] h-full w-full  mx-auto md:object-contain ' >
       <source src={video12} type="video/mp4" />
-     </video> */}
-     {/* <img src={Artboard8} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' /> */}
-     {/* <img src={Artboard9} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' /> */}
-     {/* <img src={Artboard10} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' /> */}
-     {/* <img src={Artboard11} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' /> */}
-     {/* <img src={Artboard12} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' /> */}
-     {/* <img src={Artboard13} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
-     <img src={Artboard14} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' /> */}
-     {/* <img src={Artboard15} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' /> */}
+     </video>
+     <img src={Artboard8} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' /> 
+      <img src={Artboard9} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' /> 
+      <img src={Artboard10} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' /> 
+     <img src={Artboard11} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' /> 
+      <img src={Artboard12} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' /> 
+      <img src={Artboard13} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
+     <img src={Artboard14} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' /> 
+      <img src={Artboard15} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
 
-     {/* <div className='md:flex md:max-w[90vw] gap-10 justify-between h-[34rem] items-center'>
+      <div className='md:flex md:max-w[90vw] gap-10 justify-between h-[34rem] items-center'>
      <video autoPlay loop playsInline muted className='w-1/2 h-[32.8rem] ' >
       <source src={styleace} type="video/mp4" />
      </video>
@@ -100,9 +111,21 @@ function App() {
      <img src={Art6} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
      <img src={Art7} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
      <img src={Art8} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
-     <img src={Art9} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
-     <img src={Art10} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
-     </div> */}
+     <img src={Artboard20} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
+     <img src={Artboard21} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
+     <div className='md:w-[60.5vw] md:h-[100vh] h-full w-full bg-white'>
+     <video autoPlay loop playsInline muted className='md:w-[90vw] md:h-[100vh] h-full w-full  mx-auto md:object-contain ' >
+      <source src={packaging} type="video/mp4" />
+     </video>
+     </div>
+     <img src={Artboard23} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
+     <img src={Artboard24} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
+     <img src={Artboard25} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
+     <img src={Artboard26} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
+     <img src={Artboard27} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
+     <img src={Artboard28} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
+     
+     </div> 
     </>
   )
 }
