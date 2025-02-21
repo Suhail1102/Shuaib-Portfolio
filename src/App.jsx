@@ -71,14 +71,9 @@ function App() {
      <video autoPlay loop playsInline muted className='md:w-[90vw] md:h-[100vh] h-full w-full  mx-auto md:object-contain ' >
       <source src={video12} type="video/mp4" />
      </video>
-     <img src={Artboard8} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' /> 
-      <img src={Artboard9} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' /> 
       <img src={Artboard10} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' /> 
-     <img src={Artboard11} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' /> 
-      <img src={Artboard12} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' /> 
       <img src={Artboard13} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
-     <img src={Artboard14} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' /> 
-      <img src={Artboard15} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
+     <img src={Artboard14} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
 
       <div className='md:flex md:max-w[90vw] gap-10 justify-between h-[34rem] items-center'>
      <video autoPlay loop playsInline muted className='w-1/2 h-[32.8rem] ' >
