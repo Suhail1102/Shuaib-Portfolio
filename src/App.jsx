@@ -45,6 +45,22 @@ import Artboard26 from './assets/Image/Artboard 26.jpg'
 import Artboard27 from './assets/Image/Artboard 27.jpg'
 import Artboard28 from './assets/Image/Artboard 28.jpg'
 import packaging from './assets/videos/packaging.mp4'
+import s1 from './assets/Image/Silver Spring Presentation/1.png'
+import s2 from './assets/Image/Silver Spring Presentation/2.png'
+import s3 from './assets/Image/Silver Spring Presentation/3.png'
+import s4 from './assets/Image/Silver Spring Presentation/4.png'
+import s5 from './assets/Image/Silver Spring Presentation/5.png'
+import s6 from './assets/Image/Silver Spring Presentation/6.png'
+import s7 from './assets/Image/Silver Spring Presentation/7.png'
+import s8 from './assets/Image/Silver Spring Presentation/8.png'
+import s9 from './assets/Image/Silver Spring Presentation/9.png'
+import s10 from './assets/Image/Silver Spring Presentation/10.png'
+import s11 from './assets/Image/Silver Spring Presentation/11.png'
+import s12 from './assets/Image/Silver Spring Presentation/12.png'
+import s13 from './assets/Image/Silver Spring Presentation/13.png'
+import s14 from './assets/Image/Silver Spring Presentation/14.png'
+import s15 from './assets/Image/Silver Spring Presentation/15.png'
+import s16 from './assets/Image/Silver Spring Presentation/16.png'
 
 
 import './App.css'
@@ -59,6 +75,22 @@ function App() {
      <img src={Artboard2} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain object-cover' />
      <img src={Artboard3} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
      <img src={Artboard4} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
+     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s1} alt="loading" className=' h-full w-full ' /></div>
+     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s2} alt="loading" className=' h-full w-full' /></div>
+     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s3} alt="loading" className=' h-full w-full ' /></div>
+     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s4} alt="loading" className=' h-full w-full ' /></div>
+     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s5} alt="loading" className=' h-full w-full ' /></div>
+     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s6} alt="loading" className=' h-full w-full ' /></div>
+     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s7} alt="loading" className=' h-full w-full ' /></div>
+     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s8} alt="loading" className=' h-full w-full ' /></div>
+     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s9} alt="loading" className=' h-full w-full ' /></div>
+     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s10} alt="loading" className=' h-full w-full ' /></div>
+     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s11} alt="loading" className=' h-full w-full ' /></div>
+     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s12} alt="loading" className=' h-full w-full ' /></div>
+     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s13} alt="loading" className=' h-full w-full ' /></div>
+     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s14} alt="loading" className=' h-full w-full ' /></div>
+     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s15} alt="loading" className=' h-full w-full ' /></div>
+     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s16} alt="loading" className=' h-full w-full ' /></div>
      <img src={Artboard5} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
      <img src={Artboard6} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
      <img src={Artboard7} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
