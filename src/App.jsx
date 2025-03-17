@@ -74,23 +74,30 @@ function App() {
      <img src={Artboard1} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain object-cover' srcSet={Artboard1}/>
      <img src={Artboard2} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain object-cover' />
      <img src={Artboard3} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
-     <img src={Artboard4} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
-     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s1} alt="loading" className=' h-full w-full ' /></div>
-     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s2} alt="loading" className=' h-full w-full' /></div>
-     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s3} alt="loading" className=' h-full w-full ' /></div>
-     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s4} alt="loading" className=' h-full w-full ' /></div>
-     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s5} alt="loading" className=' h-full w-full ' /></div>
-     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s6} alt="loading" className=' h-full w-full ' /></div>
-     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s7} alt="loading" className=' h-full w-full ' /></div>
-     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s8} alt="loading" className=' h-full w-full ' /></div>
-     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s9} alt="loading" className=' h-full w-full ' /></div>
-     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s10} alt="loading" className=' h-full w-full ' /></div>
-     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s11} alt="loading" className=' h-full w-full ' /></div>
-     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s12} alt="loading" className=' h-full w-full ' /></div>
-     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s13} alt="loading" className=' h-full w-full ' /></div>
-     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s14} alt="loading" className=' h-full w-full ' /></div>
-     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s15} alt="loading" className=' h-full w-full ' /></div>
-     <div className='md:w-[60.6vw] md:h-[100vh] h-full w-full mx-auto '><img src={s16} alt="loading" className=' h-full w-full ' /></div>
+     <div className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto flex justify-center items-center '><img src={Artboard4} alt="loading" className=' max-w-full max-h-full ' /></div>
+     <div className="md:w-[90vw] md:h-[100vh] h-full w-full mx-auto flex justify-center items-center">
+  <img 
+    src={s1} 
+    alt="loading" 
+    className="max-w-full max-h-full object-contain" 
+  />
+</div>
+     <div className='md:w-[90vw]  md:h-[100vh] h-full w-full mx-auto flex justify-center items-center '><img src={s2} alt="loading" className=' max-w-full max-h-full object-contain ' /></div>
+     <div className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto flex justify-center items-center '><img src={s3} alt="loading" className=' max-w-full max-h-full object-contain ' /></div>
+     <div className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto flex justify-center items-center '><img src={s4} alt="loading" className=' max-w-full max-h-full object-contain ' /></div>
+     <div className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto flex justify-center items-center '><img src={s5} alt="loading" className=' max-w-full max-h-full object-contain ' /></div>
+     <div className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto flex justify-center items-center '><img src={s6} alt="loading" className=' max-w-full max-h-full object-contain ' /></div>
+     <div className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto flex justify-center items-center '><img src={s7} alt="loading" className=' max-w-full max-h-full object-contain ' /></div>
+     <div className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto flex justify-center items-center '><img src={s8} alt="loading" className=' max-w-full max-h-full object-contain ' /></div>
+     <div className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto flex justify-center items-center '><img src={s9} alt="loading" className=' max-w-full max-h-full object-contain ' /></div>
+     <div className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto flex justify-center items-center '><img src={s10} alt="loading" className=' max-w-full max-h-full object-contain ' /></div>
+     <div className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto flex justify-center items-center '><img src={s11} alt="loading" className=' max-w-full max-h-full object-contain ' /></div>
+     <div className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto flex justify-center items-center '><img src={s12} alt="loading" className=' max-w-full max-h-full object-contain ' /></div>
+     <div className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto flex justify-center items-center '><img src={s13} alt="loading" className=' max-w-full max-h-full object-contain ' /></div>
+     <div className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto flex justify-center items-center '><img src={s14} alt="loading" className=' max-w-full max-h-full object-contain ' /></div>
+     <div className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto flex justify-center items-center '><img src={s15} alt="loading" className=' max-w-full max-h-full object-contain ' /></div>
+     <div className='md:w-[60.3vw] md:h-[54.5vh] lg:h-[56.9vh]   h-full w-full mx-auto flex justify-center items-center object-cover'><img src={s16} alt="loading" className=' max-w-full h-full lg:object-fill object-contain' /></div>
+    
      <img src={Artboard5} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
      <img src={Artboard6} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
      <img src={Artboard7} alt="loading" className='md:w-[90vw] md:h-[100vh] h-full w-full mx-auto md:object-contain' />
